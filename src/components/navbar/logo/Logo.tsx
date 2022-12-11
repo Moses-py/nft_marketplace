@@ -3,7 +3,7 @@ import {
   LogoContainer,
   LogoGen,
   LogoNext,
-} from "../../styles/logo/Logo.styles";
+} from "../../../styles/logo/Logo.styles";
 
 export const Logo = () => {
   return (

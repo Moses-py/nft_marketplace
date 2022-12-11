@@ -1,12 +1,12 @@
 import React from "react";
+import { Banner } from "../components/banner/Banner";
 import { Navbar } from "../components/navbar/Navbar";
 
-type Props = {};
-
-export const Hero = (props: Props) => {
+export const Hero = () => {
   return (
     <>
       <Navbar />
+      <Banner />
     </>
   );
 };
