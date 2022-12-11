@@ -6,11 +6,23 @@ interface ButtonProps {
   color: boolean;
   border: boolean;
   borderType?: string;
+  textColorChange?: boolean;
 }
 
-export const Button = ({ text, color, border, borderType }: ButtonProps) => {
+export const Button = ({
+  text,
+  color,
+  border,
+  borderType,
+  textColorChange,
+}: ButtonProps) => {
   return (
-    <Btn background={color} border={border} borderType={borderType}>
+    <Btn
+      background={color}
+      border={border}
+      borderType={borderType}
+      textColorChange={textColorChange}
+    >
       {text}
     </Btn>
   );
