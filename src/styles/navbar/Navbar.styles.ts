@@ -12,7 +12,7 @@ export const NavbarBlock = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 7vw;
 `;
 
 export const NavList = styled.div<NavbarStyleProps>`

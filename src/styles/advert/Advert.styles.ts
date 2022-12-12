@@ -1,2 +1,16 @@
 import styled from "styled-components";
-import { font_size, text_palette } from "../../helpers/colorScheme";
+
+interface AdvertStyleProps {
+  viewport: number;
+}
+
+export const AdvertList = styled.div<AdvertStyleProps>`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin: 10rem 0;
+  flex-wrap: wrap;
+`;
+
+export const AdvertImage = styled.img``;

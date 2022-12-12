@@ -10,7 +10,7 @@ export const BannerWrapper = styled.div<BannerStyleProps>`
   gap: 1rem;
   justify-content: space-around;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 7vw;
 `;
 
 export const ImageBanner = styled.div<BannerStyleProps>`
