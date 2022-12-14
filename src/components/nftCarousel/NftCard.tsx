@@ -49,6 +49,7 @@ export const NftCard: React.FunctionComponent<NftCardProps> = ({
             border={true}
             borderType="curved"
             color={true}
+            fullWidth={true}
           />
         </NftDescCard>
       </NftDescCardContainer>

@@ -6,10 +6,11 @@ interface ButtonStyleProps {
   border?: boolean;
   borderType?: string;
   textColorChange?: boolean;
+  fullWidth?: boolean;
 }
 
 export const Btn = styled.button<ButtonStyleProps>`
-  width: 100%;
+  width: ${(props) => props.fullWidth && "100%"};
 
   border: ${(props) =>
     props.border ? `1px solid ${text_palette.purple_01}` : "none"};

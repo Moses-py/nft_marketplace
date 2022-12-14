@@ -6,6 +6,7 @@ interface NftcarouselStyleProps {
 
 export const CarouselWrapper = styled.div<NftcarouselStyleProps>`
   margin: ${(props) => (props.viewport < 768 ? "3rem 1rem" : "5rem 0")};
+  padding: 1rem;
 `;
 
 export const CarouselContainer = styled.div`
@@ -21,14 +22,12 @@ export const CardWrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  position: relative;
   gap: 2rem;
 `;
 export const CardImageWrapper = styled.div<NftcarouselStyleProps>`
   position: relative;
   display: flex;
   justify-content: center;
-  //   align=items: center;
   height: 450px;
   margin-bottom: 5rem;
   gap: 2rem;
@@ -71,7 +70,6 @@ export const NftDescCardName = styled.div`
 
 export const NftDescCardAuthor = styled.div`
   display: flex;
-  //   justify-content: space-around;
   align-items: center;
   gap: 5px;
   img {

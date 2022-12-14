@@ -16,7 +16,7 @@ export const Header = ({ header, subtitle }: HeaderProps) => {
   return (
     <HeaderContainer>
       <HeaderText viewport={width as number}>{header}</HeaderText>
-      <SubtitleText>{subtitle}</SubtitleText>
+      <SubtitleText viewport={width as number}>{subtitle}</SubtitleText>
     </HeaderContainer>
   );
 };
