@@ -17,7 +17,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import useWindowDimensions from "../../helpers/useWindowDimension";
-import { Header } from "../header/Header";
 
 export const Footer: React.FunctionComponent = () => {
   const { width } = useWindowDimensions();
