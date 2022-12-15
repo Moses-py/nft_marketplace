@@ -8,7 +8,7 @@ import {
 } from "../../styles/navbar/Navbar.styles";
 import WidgetsIcon from "@mui/icons-material/Widgets";
 import { Button } from "../button/Button";
-import { Logo } from "./logo/Logo";
+import { Logo } from "../logo/Logo";
 import useWindowDimensions from "../../helpers/useWindowDimension";
 
 export const Navbar = () => {

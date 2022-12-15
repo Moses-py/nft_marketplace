@@ -7,6 +7,7 @@ interface ButtonProps {
   border: boolean;
   borderType?: string;
   textColorChange?: boolean;
+  fullWidth?: boolean;
 }
 
 export const Button = ({
@@ -15,6 +16,7 @@ export const Button = ({
   border,
   borderType,
   textColorChange,
+  fullWidth,
 }: ButtonProps) => {
   return (
     <Btn
@@ -22,6 +24,7 @@ export const Button = ({
       border={border}
       borderType={borderType}
       textColorChange={textColorChange}
+      fullWidth={fullWidth}
     >
       {text}
     </Btn>

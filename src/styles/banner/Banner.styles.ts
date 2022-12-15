@@ -10,7 +10,7 @@ export const BannerWrapper = styled.div<BannerStyleProps>`
   gap: 1rem;
   justify-content: space-around;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 7vw;
 `;
 
 export const ImageBanner = styled.div<BannerStyleProps>`
@@ -61,6 +61,6 @@ export const BtnGrp = styled.div<BannerStyleProps>`
   align-items: center;
   gap: 20px;
   background: transparent;
-  width: ${(props) => (props.viewport < 1440 ? "100%" : "50%")};
+  width: ${(props) => (props.viewport < 1440 ? "100%" : "100%")};
   margin-bottom: ${(props) => (props.viewport < 768 ? "2rem" : 0)};
 `;

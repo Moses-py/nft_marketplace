@@ -38,7 +38,7 @@ export const Banner = () => {
         </TextBanner>
 
         <ImageBanner viewport={width as number}>
-          <Image viewport={width as number} src="\assets\skull.svg" alt="NFT" />
+          <Image viewport={width as number} src="\assets\skull.png" alt="NFT" />
         </ImageBanner>
       </BannerWrapper>
     </>
